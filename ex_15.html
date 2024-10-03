@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 15</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="bonus.js"></script>
+  <script src="script/ex_15.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="exercice">
+      <header>
+          15
+      </header>
+      <section>
+        <a target="_blank" href="https://api.coindesk.com/v1/bpi/currentprice.json">
+          <p>
+            By using this end point API (the API is updated every minute)
+          </p>
+        </a>
+        <p>
+          You must GET the price of Bitcoin in euro and save in the localstorage.
+          <br>
+          When refreshing the page, you compare the previous price and the actual.
+          <br>
+          Then update the color of the dot depending on the situation:
+          <br>
+          <b>If green Bitcoin up, orange no change and red decrease</b>
+        </p>
+      </section>
+      <footer>
+        <div>
+          <span class="dot"></span>
+          <p>Bitcoin Evolution</p>
+        </div>
+      </footer>
+    </div>
+    <nav>
+      <a href="ex_14.html" class="btn prev">
+        &larr; Previous
+      </a>
+      <a href="ex_16.html" class="btn next">
+        Next &rarr;
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
